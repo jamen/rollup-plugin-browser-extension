@@ -17,7 +17,7 @@ export default {
 }
 ```
 
-A `browser` module is added that exports [`chrome`](https://developer.chrome.com/extensions/api_index) APIs, [`browser`](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API) APIs, and a `browser` export for any APIs [not added yet](./src/browser-extension.js).
+The plugin makes a `'browser'` module available, which exports APIs from [`chrome`](https://developer.chrome.com/extensions/api_index) and [`browser`](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API). It also exports `browser` for any APIs [not added yet](./src/browser-extension.js).
 
 ```js
 import { browser, runtime, tabs } from 'browser'
