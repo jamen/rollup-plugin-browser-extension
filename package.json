@@ -3,7 +3,7 @@
     "author": "Jamen Marz <me@jamenmarz.com>",
     "description": "Rollup plugin for browser extensions.",
     "main": "src/browser-extension.js",
-    "version": "0.1.1",
+    "version": "1.0.0",
     "repository": "jamen/rollup-plugin-browser-extension",
     "keywords": [
         "rollup-plugin",
